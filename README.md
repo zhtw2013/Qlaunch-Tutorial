@@ -57,3 +57,5 @@ Make another folder called romfs, this is where you'll be putting your modified 
 Step 9:
 Under romfs, make another folder called message\USen, here you'll put your modified .msbt.szs files you just made in Kuriimu.
 Once you've done that, you're done! You should have edited QLaunch text now, make sure to reboot your Switch back into Atmosphere and double check and make sure that the edits you've made are indeed working.
+![Step 9](https://i.imgur.com/2EXeWu5.png "Step 9")
+
