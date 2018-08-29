@@ -17,10 +17,12 @@ Use Hactool with the proper keys to extract Qlaunch (the 00 file) into a romfs f
 
 Step 4:
 Go into the extracted romfs folder under message, USen, there you'll find qlaunch.msbt.szs and setting.msbt.szs
+
 ![Step 4](https://i.imgur.com/zYzjcsr.png "Step 4")
 
 Step 5:
 Open up Uwizard and go to the Archive Manager tab
+
 ![Step 5](https://i.imgur.com/rniejd2.png "Step 5")
 
 Here you'll see Decompress SZS and Recompress SZS, don't worry about Recompress for now.
@@ -29,10 +31,14 @@ Click on Decompress SZS and open either setting and or qlaunch, then save it as 
 Step 6:
 Once you have the .msbt file saved, open up Kuriimu.
 Click on File, Open, find whereever you saved your .msbt file and open it.
-Then you'll see a lot of entries on the left like so - ![Step 6](https://i.imgur.com/WpUPA4J.png "Step 6")
+Then you'll see a lot of entries on the left like so.
+
+![Step 6](https://i.imgur.com/WpUPA4J.png "Step 6")
 
 Find whatever you'd like to edit, and change the text to whatever you like (Keep in mind that this could break certain texts)
-For example: In setting.msbt, under SetCnthardware_BodySysUpdate, you can change the Current Version that shows for the Switch, like how it shows 5.1.0, or whatever, you can edit it to whatever you like. - ![Step 6](https://i.imgur.com/45vM5m5.png "Step 6")
+For example: In setting.msbt, under SetCnthardware_BodySysUpdate, you can change the Current Version that shows for the Switch, like how it shows 5.1.0, or whatever, you can edit it to whatever you like. 
+
+![Step 6](https://i.imgur.com/45vM5m5.png "Step 6")
 
 Once you are done editing, click on File, Save at the top.
 Now, go back to Uwizard and click on Compress SZS.
@@ -45,6 +51,7 @@ Step 8:
 Using Atmosphere's LayeredFS, make a folder under atmosphere/titles called 0100000000001000, this is the TitleID for QLaunch.
 In that folder, make a file called fsmitm.flag, this is required to be able to edit QLaunch over LayeredFS.
 Make another folder called romfs, this is where you'll be putting your modified QLaunch files you just made.
+
 ![Step 8](https://i.imgur.com/GZWBZiB.png "Step 8")
 
 Step 9:
