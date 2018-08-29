@@ -25,7 +25,7 @@ Open up Uwizard and go to the Archive Manager tab
 
 ![Step 5](https://i.imgur.com/rniejd2.png "Step 5")
 
-Here you'll see Decompress SZS and Recompress SZS, don't worry about Recompress for now.
+Here you'll see Decompress SZS and Compress SZS, don't worry about Compress for now.
 Click on Decompress SZS and open either setting and or qlaunch, then save it as a .msbt file for editing in Kuriimu.
 
 Step 6:
