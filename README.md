@@ -1,16 +1,16 @@
-# Qlaunch-Tutorial
+# Qlaunch-Tutorial for 5.1.0 Text Editing
 Note: This method is ONLY USED over LayeredFS with Atmosphere, I'm not responsible if stuff breaks on your Switch, this stuff is easily messed up and could result in you crashing your Switch on boot until you remove the LayeredFS files.
 
 
-This is a tutorial of doing simple text edits on Icons using Kuriimu's editor to edit the .msbt files, and using Uwizard to decompress and recompress the .szs archive files.
+This is a tutorial of doing simple text edits on Icons using Kuriimu's editor to edit the .msbt files, Uwizard to decompress and recompress the .szs archive files.
 
 
 Step 1:
 Grab Uwizard and Kuriimu from this Github.
 
 Step 2:
-Get your own unedited qlaunch extracted from your System Partition or use the one I have linked in the Github (the file called 00)
-If you want to get it from your System Partition, it's under Contents/registered/8684b0ddab1581d300a15ebc96c6bf2c.nca
+Get your own unedited qlaunch extracted from your 5.1.0 System Partition or use the one I have linked in the Github (the file called 00)
+If you want to get it from your System Partition, it's under Contents/registered/8684b0ddab1581d300a15ebc96c6bf2c.nca (only on 5.1.0)
 
 Step 3:
 Use Hactool with the proper keys to extract Qlaunch (the 00 file) into a romfs folder, use it as a nca file to extract, not NSP.
